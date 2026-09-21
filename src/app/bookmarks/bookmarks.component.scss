@@ -1,0 +1,117 @@
+:host {
+  height: 100%;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 24px;
+  overflow: auto;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.bookmarks-header {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.row-layout {
+  display: flex;
+}
+.bookmarks-title-row {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 0 12px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.bookmarks-sort-row {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  min-width: 50px;
+  flex-shrink: 0;
+}
+.bookmarks-cards-container {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.saved-economy-article {
+  --background: var(--ig-surface-200);
+  min-width: 320px;
+  max-width: 360px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.column-layout-rjphgc {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.bookmarks-title {
+  color: #006233;
+  height: max-content;
+  min-width: min-content;
+}
+.bookmarks-description {
+  color: var(--ig-gray-800);
+  height: max-content;
+  min-width: min-content;
+}
+.bookmarks-showing-count {
+  height: max-content;
+  min-width: min-content;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.image {
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+.icon {
+  color: #D21034;
+}
+.bookmarks-count-badge {
+  width: max-content;
+  height: max-content;
+}
+.sort-selector {
+  min-width: 240px;
+  flex-shrink: 0;
+}
+.button-p-6m-3-1e {
+  --foreground: #006233;
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+}
+.button-abig-9v {
+  --foreground: #D21034;
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+}

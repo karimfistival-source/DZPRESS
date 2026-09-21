@@ -1,0 +1,65 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.top-application-bar {
+  --igx-navbar-text-color: #FFFFFF;
+  --igx-navbar-background: #006233;
+  height: max-content;
+  min-width: min-content;
+}
+.side-drawer {
+  --background: #1E293B;
+  --item-hover-background: var(--ig-navdrawer-item-hover-background, lch(from var(--background) calc(l + (50 - l) * 0.1 + sign(50 - l) * 5) c h));
+  --item-active-background: var(--ig-navdrawer-item-active-background, lch(from var(--background) calc(l + (50 - l) * 0.1 + sign(50 - l) * 10) c h));
+  --item-disabled-text-color: #FFFFFF;
+  --item-disabled-icon-color: #FFFFFF;
+  --item-hover-icon-color: #FFFFFF;
+  --item-hover-text-color: #FFFFFF;
+  --item-text-color: #FFFFFF;
+  --item-active-icon-color: #FFFFFF;
+  --item-active-text-color: #FFFFFF;
+  --item-icon-color: #FFFFFF;
+  --item-header-text-color: #FFFFFF;
+  min-width: min-content;
+  min-height: 0;
+  max-width: 280px;
+  flex-shrink: 0;
+}
+.central-view-window {
+  overflow: auto;
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  flex-grow: 1;
+}
+.navbar-content {
+  gap: 1rem;
+}
+.burger-menu-button {
+  --foreground: #FFFFFF;
+}
+.icon {
+  color: #FFFFFF;
+}
+.h6 {
+  margin: 0;
+}
+.row-layout {
+  display: flex;
+}
+.desktop-shell-body {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 0;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}

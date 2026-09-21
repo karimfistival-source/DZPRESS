@@ -1,0 +1,277 @@
+<div class="column-layout dashboard-header">
+  <div class="row-layout header-badge-row">
+    <h3 class="main-title">
+      DZPRESS National Portal
+    </h3>
+    <igx-badge type="error" value="LIVE UPDATES" class="live-badge"></igx-badge>
+  </div>
+  <p class="description">
+    Your central gateway to real-time Algerian politics, economic trends, sports events, Casbah culture, and digital innovation.
+  </p>
+</div>
+<div class="row-layout filters-search-row">
+  <div class="row-layout category-chips">
+    <igx-chip class="chip-all">
+      <igx-prefix>
+        <igx-icon class="icon-lcw-1sd">
+          newspaper
+        </igx-icon>
+      </igx-prefix>
+      All News
+    </igx-chip>
+    <igx-chip class="chip-all">
+      <igx-prefix>
+        <igx-icon class="icon">
+          place
+        </igx-icon>
+      </igx-prefix>
+      Politics
+    </igx-chip>
+    <igx-chip class="chip-all">
+      <igx-prefix>
+        <igx-icon class="icon">
+          place
+        </igx-icon>
+      </igx-prefix>
+      Economy
+    </igx-chip>
+    <igx-chip class="chip-all">
+      <igx-prefix>
+        <igx-icon class="icon">
+          place
+        </igx-icon>
+      </igx-prefix>
+      Sports
+    </igx-chip>
+    <igx-chip class="chip-all">
+      <igx-prefix>
+        <igx-icon class="icon">
+          place
+        </igx-icon>
+      </igx-prefix>
+      Culture
+    </igx-chip>
+    <igx-chip class="chip-all">
+      <igx-prefix>
+        <igx-icon class="icon">
+          place
+        </igx-icon>
+      </igx-prefix>
+      Technology
+    </igx-chip>
+  </div>
+  <igx-input-group type="search" class="search-bar">
+    <igx-prefix>
+      <igx-icon class="icon-nf-1-0-8p">
+        search
+      </igx-icon>
+    </igx-prefix>
+    <igx-suffix>
+      <igx-icon class="icon-nf-1-0-8p">
+        mic
+      </igx-icon>
+    </igx-suffix>
+    <input type="search" [(ngModel)]="value" placeholder="Search articles, announcements or archives..." igxInput />
+    <label igxLabel>Search</label>
+  </igx-input-group>
+</div>
+<div class="row-layout news-grid">
+  <igx-card class="politics-article">
+    <igx-card-media height="420px">
+      <img src="/assets/a-grand-political-conference-h-e2d5c0f687de.png" alt="" class="image" />
+    </igx-card-media>
+    <igx-card-header>
+      <h3 igxCardHeaderTitle>
+        Algiers Diplomatic Summit Boosts Regional Partnerships
+      </h3>
+      <h5 igxCardHeaderSubtitle>
+        POLITICS • 2 hours ago
+      </h5>
+    </igx-card-header>
+    <igx-card-content>
+      <div class="column-layout column-layout-2-9lm-3">
+        <p class="ig-typography__body-2 description">
+          The high-level diplomatic assembly concluded in Algiers today with groundbreaking strategic treaties focused on North African security and cross-border cooperation.
+        </p>
+      </div>
+    </igx-card-content>
+    <igx-card-actions>
+      <ng-container igxStart>
+        <button igxButton="flat" type="button" class="button-f-9-1xko">
+          Read Full Coverage
+        </button>
+        <button igxButton="flat" type="button" class="button-w-2-7io">
+          <igx-icon class="icon_1">
+            bookmark_border
+          </igx-icon>
+          <span>Save</span>
+        </button>
+      </ng-container>
+    </igx-card-actions>
+  </igx-card>
+  <igx-card class="politics-article">
+    <igx-card-media height="420px">
+      <img src="/assets/a-modern-renewable-energy-hydr-3a6069e86377.png" alt="" class="image" />
+    </igx-card-media>
+    <igx-card-header>
+      <h3 igxCardHeaderTitle>
+        Sonatrach Launches Major Green Hydrogen Pilot in Hassi Messaoud
+      </h3>
+      <h5 igxCardHeaderSubtitle>
+        ECONOMY • 4 hours ago
+      </h5>
+    </igx-card-header>
+    <igx-card-content>
+      <div class="column-layout column-layout-2-9lm-3">
+        <p class="ig-typography__body-2 description">
+          National energy giant Sonatrach partners with European consortia to develop sustainable green hydrogen projects in the Sahara, positioning Algeria for energy transition.
+        </p>
+      </div>
+    </igx-card-content>
+    <igx-card-actions>
+      <ng-container igxStart>
+        <button igxButton="flat" type="button" class="button-f-9-1xko">
+          Read Full Coverage
+        </button>
+        <button igxButton="flat" type="button" class="button-w-2-7io">
+          <igx-icon class="icon_1">
+            bookmark_border
+          </igx-icon>
+          <span>Save</span>
+        </button>
+      </ng-container>
+    </igx-card-actions>
+  </igx-card>
+  <igx-card class="politics-article">
+    <igx-card-media height="420px">
+      <img src="/assets/a-vibrant-football-stadium-pit-885885a9330b.png" alt="" class="image" />
+    </igx-card-media>
+    <igx-card-header>
+      <h3 igxCardHeaderTitle>
+        Algerian National Team Begins Training Camp in Annaba
+      </h3>
+      <h5 igxCardHeaderSubtitle>
+        SPORTS • 6 hours ago
+      </h5>
+    </igx-card-header>
+    <igx-card-content>
+      <div class="column-layout column-layout-2-9lm-3">
+        <p class="ig-typography__body-2 description">
+          The Desert Foxes assemble in Annaba ahead of the upcoming African Cup of Nations qualifiers, promising intensive preparations and high hopes for fans.
+        </p>
+      </div>
+    </igx-card-content>
+    <igx-card-actions>
+      <ng-container igxStart>
+        <button igxButton="flat" type="button" class="button-f-9-1xko">
+          Read Full Coverage
+        </button>
+        <button igxButton="flat" type="button" class="button-w-2-7io">
+          <igx-icon class="icon_1">
+            bookmark_border
+          </igx-icon>
+          <span>Save</span>
+        </button>
+      </ng-container>
+    </igx-card-actions>
+  </igx-card>
+  <igx-card class="politics-article">
+    <igx-card-media height="420px">
+      <img src="/assets/traditional-white-stone-walls-f9bdb9781ab6.png" alt="" class="image" />
+    </igx-card-media>
+    <igx-card-header>
+      <h3 igxCardHeaderTitle>
+        Restoration Campaign Restores Historical Casbah of Algiers Jewels
+      </h3>
+      <h5 igxCardHeaderSubtitle>
+        CULTURE • 1 day ago
+      </h5>
+    </igx-card-header>
+    <igx-card-content>
+      <div class="column-layout column-layout-2-9lm-3">
+        <p class="ig-typography__body-2 description">
+          UNESCO-backed heritage experts make significant progress restoring centuries-old architectural masterpieces hidden deep inside the historic Algiers Casbah.
+        </p>
+      </div>
+    </igx-card-content>
+    <igx-card-actions>
+      <ng-container igxStart>
+        <button igxButton="flat" type="button" class="button-f-9-1xko">
+          Read Full Coverage
+        </button>
+        <button igxButton="flat" type="button" class="button-w-2-7io">
+          <igx-icon class="icon_1">
+            bookmark_border
+          </igx-icon>
+          <span>Save</span>
+        </button>
+      </ng-container>
+    </igx-card-actions>
+  </igx-card>
+  <igx-card class="politics-article">
+    <igx-card-media height="420px">
+      <img src="/assets/a-modern-algerian-technology-w-81b8d825ccf8.png" alt="" class="image" />
+    </igx-card-media>
+    <igx-card-header>
+      <h3 igxCardHeaderTitle>
+        Algiers Cyber Hub Unveils New Tech Incubation Programs
+      </h3>
+      <h5 igxCardHeaderSubtitle>
+        TECHNOLOGY • 1 day ago
+      </h5>
+    </igx-card-header>
+    <igx-card-content>
+      <div class="column-layout column-layout-2-9lm-3">
+        <p class="ig-typography__body-2 description">
+          Algerian tech accelerator launches funding cohort for digital start-ups, scaling local logistics, agritech, and mobile banking applications.
+        </p>
+      </div>
+    </igx-card-content>
+    <igx-card-actions>
+      <ng-container igxStart>
+        <button igxButton="flat" type="button" class="button-f-9-1xko">
+          Read Full Coverage
+        </button>
+        <button igxButton="flat" type="button" class="button-w-2-7io">
+          <igx-icon class="icon_1">
+            bookmark_border
+          </igx-icon>
+          <span>Save</span>
+        </button>
+      </ng-container>
+    </igx-card-actions>
+  </igx-card>
+  <igx-card class="politics-article">
+    <igx-card-media height="420px">
+      <img src="/assets/a-panoramic-highway-cut-throug-f528d163fea8.png" alt="" class="image" />
+    </igx-card-media>
+    <igx-card-header>
+      <h3 igxCardHeaderTitle>
+        East-West Highway Fiber Expansion Reaches Final Stage
+      </h3>
+      <h5 igxCardHeaderSubtitle>
+        INFRASTRUCTURE • 2 days ago
+      </h5>
+    </igx-card-header>
+    <igx-card-content>
+      <div class="column-layout column-layout-2-9lm-3">
+        <p class="ig-typography__body-2 description">
+          Major telecom infrastructure overhaul completes broadband trunk links alongside national highways, radically increasing rural high-speed coverage.
+        </p>
+      </div>
+    </igx-card-content>
+    <igx-card-actions>
+      <ng-container igxStart>
+        <button igxButton="flat" type="button" class="button-f-9-1xko">
+          Read Full Coverage
+        </button>
+        <button igxButton="flat" type="button" class="button-w-2-7io">
+          <igx-icon class="icon_1">
+            bookmark_border
+          </igx-icon>
+          <span>Save</span>
+        </button>
+      </ng-container>
+    </igx-card-actions>
+  </igx-card>
+</div>

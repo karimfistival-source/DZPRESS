@@ -1,0 +1,109 @@
+:host {
+  height: 100%;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 24px;
+  overflow: auto;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.live-feeds-header {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.row-layout {
+  display: flex;
+}
+.live-header-badge-row {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 0 12px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.streams-row {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.entv-tv-card {
+  min-width: 340px;
+  max-width: 500px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.column-layout-9u-9w-8l {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 8px 0;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.entv-info {
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.content {
+  color: #006233;
+  height: max-content;
+  min-width: min-content;
+}
+.live-description {
+  color: var(--ig-gray-800);
+  height: max-content;
+  min-width: min-content;
+}
+.image {
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+.icon {
+  color: #FFFFFF;
+}
+.icon_1 {
+  color: var(--ig-gray-700);
+}
+.broadcast-live-badge {
+  width: max-content;
+  height: max-content;
+}
+.button-1hj-4gm {
+  --foreground: #FFFFFF;
+  --background: #006233;
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+}
+.button-x-0ea-4-7 {
+  --foreground: var(--ig-gray-700);
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+}

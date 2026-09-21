@@ -1,0 +1,148 @@
+:host {
+  height: 100%;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 24px;
+  overflow: auto;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.dashboard-header {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.row-layout {
+  display: flex;
+}
+.header-badge-row {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 0 12px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.filters-search-row {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.category-chips {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 0 8px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.news-grid {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.politics-article {
+  min-width: 340px;
+  max-width: 420px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.column-layout-2-9lm-3 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 8px 0;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.main-title {
+  color: #006233;
+  height: max-content;
+  min-width: min-content;
+}
+.description {
+  color: var(--ig-gray-800);
+  height: max-content;
+  min-width: min-content;
+}
+.chip-all {
+  --ig-size: var(--ig-size-medium);
+  width: max-content;
+  height: max-content;
+}
+.icon-lcw-1sd {
+  --size: 18px;
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+  color: #006233;
+}
+.icon {
+  --size: 18px;
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+}
+.icon-nf-1-0-8p {
+  --size: 18px;
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+  color: var(--ig-gray-500);
+}
+.image {
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+.icon_1 {
+  color: var(--ig-gray-700);
+}
+.live-badge {
+  width: max-content;
+  height: max-content;
+}
+.search-bar {
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}
+.button-f-9-1xko {
+  --foreground: #006233;
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+}
+.button-w-2-7io {
+  --foreground: var(--ig-gray-700);
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+}

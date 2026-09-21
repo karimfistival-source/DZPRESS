@@ -1,0 +1,42 @@
+<igx-navbar class="top-application-bar">
+  <igx-navbar-action>
+    <button igxIconButton="flat" [igxToggleAction]="sideDrawer" class="burger-menu-button">
+      <igx-icon class="icon">
+        menu
+      </igx-icon>
+    </button>
+  </igx-navbar-action>
+  <igx-navbar-title class="navbar-content">
+    <h6 class="h6">
+      DZPRESS
+    </h6>
+  </igx-navbar-title>
+  <button igxIconButton="flat" class="burger-menu-button">
+    <igx-icon class="icon">
+      refresh
+    </igx-icon>
+  </button>
+  <button igxIconButton="flat" class="burger-menu-button">
+    <igx-icon class="icon">
+      settings
+    </igx-icon>
+  </button>
+</igx-navbar>
+<div class="row-layout desktop-shell-body">
+  <igx-nav-drawer [isOpen]="true" [pin]="true" width="280px" #sideDrawer class="side-drawer">
+    <ng-template igxDrawer>
+      <div igxDrawerItem [active]="isActive(`/dashboard`)" [routerLink]="[`/dashboard`]">
+        <span>National News Portal</span>
+      </div>
+      <div igxDrawerItem [active]="isActive(`/live-feeds`)" [routerLink]="[`/live-feeds`]">
+        <span>Live Audio &amp; TV</span>
+      </div>
+      <div igxDrawerItem [active]="isActive(`/bookmarks`)" [routerLink]="[`/bookmarks`]">
+        <span>Bookmarked Articles</span>
+      </div>
+    </ng-template>
+  </igx-nav-drawer>
+  <div class="central-view-window">
+    <router-outlet></router-outlet>
+  </div>
+</div>
